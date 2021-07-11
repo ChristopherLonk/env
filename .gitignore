@@ -1,0 +1,8 @@
+.vscode
+.vagrant
+.idea
+playbook.retry
+example/
+foo/
+bar/
+web/
