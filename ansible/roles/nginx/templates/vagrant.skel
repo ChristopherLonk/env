@@ -1,7 +1,7 @@
 server {
     listen       80;
     server_name  {{ servername }};
-    root         /vagrant/web/;
+    root         /vagrant/web/product/public/;
 
     location / {
         try_files $uri /index.php;

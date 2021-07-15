@@ -30,3 +30,13 @@
     port: "{{ item }}"
   with_items:
     - 3306
+
+- name: create database product
+  mysql_db:
+    name: product
+    state: absent
+
+- name: create database product
+  mysql_db:
+    name: product
+    state: present

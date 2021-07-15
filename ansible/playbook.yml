@@ -5,6 +5,7 @@
     - { role: nginx }
     - { role: php }
     - { role: mysql }
+    - { role: npm }
    post_tasks:
     - service: 
         name: nginx
